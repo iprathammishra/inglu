@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white p-4  items-center">
@@ -22,7 +22,7 @@ const Footer = () => {
           </a>
         </div>
         <div className=" flex  space-x-2">
-          <img src="/logo.png" alt="INGLU Logo" className="h-8 w-8" />
+          <Image src="/logo.png" alt="INGLU Logo" width={30} height={8} />
           <span>INGLU</span>
         </div>
         <div className="space-y-1">
